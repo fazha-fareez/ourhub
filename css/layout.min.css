@@ -372,6 +372,7 @@ h3, h4 {
     }
 
     .promo-block .promo-block-title {
+	display:inline-block;
         font-size: 70px;
         color: #fff;
     }

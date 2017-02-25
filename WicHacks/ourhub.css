@@ -1,0 +1,52 @@
+body {
+	background: #f8f8f8;
+	color: #606060;
+	font-family: 'Proxima', sans-serif;
+	font-weight: 400;
+	position: relative;
+}
+html, body {
+	-webkit-font-smoothing: antialiased;
+/*	-moz-osx-font-smoothing: grayscale; */
+	overflow-x: hidden;
+	text-align: center;
+	vertical-align: middle;
+}
+
+h1 {
+	font-family: "Proxima Bold";
+	font-weight: 900;
+}
+hr {
+	border-color: #e0e0e0;
+	border-width: 2px;
+	margin: 0 auto 20px auto;
+	width: 100px !important;
+}
+h1 {
+	font-size: 50px;
+/*	padding-bottom:1%; */
+}
+/*.title h1 {
+	color: #202020;
+	line-height: 20px;
+}*/
+#intro {
+	padding-top: 180px;
+/*	padding-bottom: 140px;*/
+}
+#intro h1 {
+/*	padding-bottom: 1%; */
+}
+.introspan {
+	padding-top: 2%;
+}
+
+
+
+
+
+
+
+
+

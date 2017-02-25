@@ -38,10 +38,11 @@ html {
     }
 
 p {
-    font-size: 15px;
+    font-size: 25px;
     font-weight: 400;
     color: #a6a7aa;
     margin-bottom: 15px;
+    text-align: center;
 }
 
 em, li, li a {
@@ -84,6 +85,7 @@ h1, h2, h3, h4, h5, h6 {
     color: #515769;
     line-height: 1.4;
     margin: 0 0 15px;
+    text-align: center;
 }
 
     h1 > a, h2 > a, h3 > a, h4 > a, h5 > a, h6 > a {
@@ -101,7 +103,8 @@ h1 {
 }
 
 h2 {
-    font-size: 30px;
+    font-size: 40px;
+    padding-top: 100px;
 }
 
 h3, h4 {
@@ -371,10 +374,6 @@ h3, h4 {
     .promo-block .promo-block-title {
         font-size: 70px;
         color: #fff;
-    }
-    .promo-block .promo-block-title2 {
-        font-size: 70px;
-        color: #7ec467;
     }
 @media (max-width:480px) {
     .promo-block .promo-block-title {

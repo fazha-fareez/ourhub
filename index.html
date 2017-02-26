@@ -241,6 +241,17 @@
         document.getElementById('show-business').addEventListener('click', function() {
           map.setOptions({styles: styles['default']});
         }); 
+          map.addListener('click', function(e) {
+          placeMarkerAndPanTo(e.latLng, map);
+          });
+
+        function placeMarkerAndPanTo(position, map) {
+          var marker = new google.maps.Marker({
+          position: position,
+          map: map
+        });
+        map.panTo(position);
+        }
       } 
 
       var styles = {

@@ -123,6 +123,10 @@ h3, h4 {
 
 .tenlist {
 	display:inline-block;
+	float:right;
+	padding-top: 15%;
+	padding-right: 5%;
+		
 }
 
 .introspan {

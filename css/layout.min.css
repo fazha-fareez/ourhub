@@ -121,6 +121,10 @@ h3, h4 {
         /*	padding-bottom: 1%; */
     }
 
+.tenlist {
+	display:inline-block;
+}
+
 .introspan {
     /*padding-top: 2%;*/
 }

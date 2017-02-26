@@ -158,11 +158,9 @@
           mapTypeControl: false
         });
 
-        // Add controls to the map, allowing users to hide/show features.
         var styleControl = document.getElementById('style-control-selector');
         map.controls[google.maps.ControlPosition.TOP_LEFT].push(styleControl); 
 
-        // Apply new JSON when the user chooses to hide/show features.
         document.getElementById('hide-business').addEventListener('click', function() {
           map.setOptions({styles: styles['hide']});
         });

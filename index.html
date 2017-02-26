@@ -215,7 +215,7 @@
     
     <div id="map"></div>
     
-    <div class="popup">
+    <div class="popup" onclick="MyFunction()">
         <span class="popuptext" id="myPopup">Tap to add a comment</span>
     </div>
     
@@ -252,6 +252,13 @@
         map.panTo(position);
         }
       } 
+        
+        function MyFunction() {
+    var person = prompt("Please add a comment");
+    document.getElementById("demo").innerHTML =
+        person
+    
+}
 
       var styles = {
         default: null,

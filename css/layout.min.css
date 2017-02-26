@@ -380,12 +380,18 @@ h3, h4 {
     }
 
 .promo-block-div {
-    display: inline-block;
+    display: inline-block; 
 }
 
 .promo-block-title-two {
     font-size: 70px;
     color: #7ec467;
+}
+
+@media (max-width:70px) {
+	.promo-block-div{
+		font-size: 70px;
+	}
 }
 
 @media (max-width:480px) {

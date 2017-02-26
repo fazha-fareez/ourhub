@@ -835,13 +835,13 @@ fieldset[disabled] .btn-theme {
 /*----------------------------------
   Google Map
 ------------------------------------*/
-/*.gmap .gmap-address {
+.gmap .gmap-address {
   border-bottom: 1px solid #edf0f2;
   text-align: center;
   background: #fff;
   padding: 30px;
   margin-bottom: 0;
-}*/
+}
 
 /*------------------------------------------------------------------
     [Swiper Slider]

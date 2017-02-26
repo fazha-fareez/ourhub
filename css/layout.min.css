@@ -121,8 +121,13 @@ h3, h4 {
         /*	padding-bottom: 1%; */
     }
 
-.toptitle {
-	size: 90%;
+p1 {
+    font-size: 55px;
+    font-weight: 400;
+    color: #a6a7aa;
+    margin-bottom: 15px;
+    text-align: center;
+    padding-bottom: 10px;
 }
 
 .tenlist {

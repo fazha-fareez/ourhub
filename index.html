@@ -172,6 +172,44 @@
         vertical-align: baseline;
       }
              }
+             
+      @media (max-width:767px) {
+          
+                 #map {
+        height: 300px;
+        margin-top:10%;
+        margin-left:1%;
+        width:100%;
+        border-style:solid;
+        border-color:black;
+        margin-right:1%
+      }
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      .control-map {
+        background-color: white;
+        border-style: solid;
+        border-color: grey;
+        border-width: 2px;
+        font-family: 'Lucida Console','monospace';
+        margin: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+        display: none;
+        max-height: 8.5%;
+      }
+
+      #map .control-map { display: block; }
+
+      .control-selector {
+        font-size: 14px;
+        line-height: 30px;
+        vertical-align: baseline;
+      }
+             }
 
     </style>
         <div id="style-control-selector" class="control-map">

@@ -215,6 +215,10 @@
     
     <div id="map"></div>
     
+    <div class="popup">
+        <span class="popuptext" id="myPopup">Tap to add a comment</span>
+    </div>
+    
     <script>
 
       var map;
@@ -243,6 +247,8 @@
           position: position,
           map: map
         });
+          var popup = document.getElementById("myPopup");
+            popup.classList.toggle("show");
         map.panTo(position);
         }
       } 

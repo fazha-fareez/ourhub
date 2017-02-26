@@ -71,7 +71,7 @@ a {
         right: -15px;
         width: 9px;
         height: 2px;
-        background: #17bed2;
+        background:  #7ec467;
         content: " ";
     }
 
@@ -256,7 +256,7 @@ h3, h4 {
 
     .btn-default-bg.focus, .btn-default-bg:focus, .btn-default-bg:hover {
         color: #fff;
-        background: #17bed2;
+        background:  #7ec467;
         border-color: transparent;
     }
 
@@ -317,7 +317,7 @@ h3, h4 {
         left: 0;
         width: 9px;
         height: 2px;
-        background: #17bed2;
+        background:  #7ec467;
         margin-right: 10px;
     }
 
@@ -660,7 +660,7 @@ h3, h4 {
         }
 
     .header .navbar-toggle:hover .toggle-icon {
-        background: #17bed2;
+        background: #7ec467;
         transition-duration: .3s;
         transition-property: all;
         transition-timing-function: cubic-bezier(.7,1,.7,1);
@@ -669,7 +669,7 @@ h3, h4 {
         .header .navbar-toggle:hover .toggle-icon:after, .header .navbar-toggle:hover .toggle-icon:before {
             width: 21px;
             height: 1px;
-            background: #17bed2;
+            background: #7ec467;
             transition-duration: .3s;
             transition-property: all;
             transition-timing-function: cubic-bezier(.7,1,.7,1);
@@ -753,7 +753,7 @@ h3, h4 {
         left: 0;
         width: 15px;
         height: 3px;
-        background: #17bed2;
+        background: #7ec467;
         opacity: 0;
         transition-duration: .4s;
         transition-property: all;
@@ -1020,7 +1020,7 @@ h3, h4 {
 }
 
 .color-base {
-    color: #17bed2 !important;
+    color: #7ec467 !important;
 }
 
 .color-white {
@@ -1048,7 +1048,7 @@ h3, h4 {
 }
 
 .bg-color-base {
-    background: #17bed2 !important;
+    background: #7ec467 !important;
 }
 
 .bg-color-white {

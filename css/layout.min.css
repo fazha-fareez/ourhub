@@ -121,6 +121,10 @@ h3, h4 {
         /*	padding-bottom: 1%; */
     }
 
+.toptitle {
+	size: 110%;
+}
+
 .tenlist {
 	display:inline-block;
 	float:right;

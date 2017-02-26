@@ -378,6 +378,8 @@ h3, h4 {
     }
 .promo-block-div {
 	display:inline-block;
+}
+.promo-block-div h1 {
 	font-size: 70px;
 	color: #fff;
 }
